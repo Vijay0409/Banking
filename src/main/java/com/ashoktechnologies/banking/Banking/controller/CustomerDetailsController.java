@@ -13,9 +13,11 @@ public class CustomerDetailsController {
     @Autowired
     public CustomerDetailsController(CustomerDetailsRepository customerDetailsRepository) {
         this.customerDetailsRepository = customerDetailsRepository;
+
     }
     @RequestMapping(value ="/customer-details", method = RequestMethod.POST)
     public CustomerDetails saveCustomerData(@RequestBody CustomerDetails customerDetails) {
         return customerDetailsRepository.saveAndFlush(customerDetails);
+
     }
 }
