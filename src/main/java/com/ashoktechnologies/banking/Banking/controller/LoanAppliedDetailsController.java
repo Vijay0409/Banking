@@ -26,6 +26,4 @@ public class LoanAppliedDetailsController {
 
         return loansAppliedDetailsData;
     }
-
-
 }
