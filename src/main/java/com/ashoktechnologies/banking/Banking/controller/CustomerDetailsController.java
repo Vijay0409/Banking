@@ -18,7 +18,4 @@ public class CustomerDetailsController {
     public CustomerDetails saveCustomerData(@RequestBody CustomerDetails customerDetails) {
         return customerDetailsRepository.saveAndFlush(customerDetails);
     }
-public void testing(){
-
-    }
 }
