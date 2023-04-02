@@ -27,7 +27,5 @@ public class LoanAppliedDetailsController {
         return loansAppliedDetailsData;
     }
 
-    public void testMergingData(){
-        // code is for only testing
-    }
+
 }
