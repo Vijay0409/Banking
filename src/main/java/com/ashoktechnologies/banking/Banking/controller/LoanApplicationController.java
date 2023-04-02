@@ -49,4 +49,8 @@ public class LoanApplicationController {
     public void addingData(){
         //this is testing
     }
+
+    public void testDataAdding(){
+        //testing data
+    }
 }
